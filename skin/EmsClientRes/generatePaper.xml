@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="18" />
+  <Font name="宋体" size="14" bold="true" />
+  <Font name="宋体" size="22" bold="true" italic="false"/>
+  <Font name="宋体" size="12" />
+  <HorizontalLayout>
+    <VerticalLayout>
+      <HorizontalLayout height="50" inset="1,1,0,0">
+        <Container bkimage="examine_background.bmp">
+          <Control />
+          <Text text="{f 3}{c #919191}在此处设置考试信息，生成进行考试的试卷{/c}{/f}" pos="80, 20, 500, 100" float="true" showhtml="true"/>
+        </Container>
+      </HorizontalLayout>
+      <VerticalLayout inset="15,20,10,10" relativepos="0,0,300,300">
+        <HorizontalLayout height="40">
+          <Text text="科目：" font="3" float="true" pos="0,0,50,20"></Text>
+          <ComboBox name="generatePaperSubject" float="true" pos="50,0,200,18" width="200" height="18" bkimage="file='control.png' source='14,60,169,80'">
+          </ComboBox>
+        </HorizontalLayout>
+        <HorizontalLayout height="40" >
+          <Text text="开始时间：" font="3" height="18" ></Text>
+          <DateTime name="startDate" width="110"  height="18" bkcolor="#FFE2E5EA" />
+          <Edit name="startHour" text="00"  width="25" bkimage="file='button_normal.png' source='10,3,40,15'" height="18" tooltip="输入0~23" maxchar="2" />
+          <Text text="点" font="3"></Text>
+          <Edit name="startMinute" text="00" width="25" bkimage="file='button_normal.png' source='10,3,40,15'" height="18" tooltip="输入0~59" maxchar="2" />
+          <Text text="分"  font="3"></Text>
+        </HorizontalLayout>
+        <HorizontalLayout height="40" >
+          <Text text="结束时间：" font="3" height="18" ></Text>
+          <DateTime name="endDate" width="110"  height="18" bkcolor="#FFE2E5EA" />
+          <Edit name="endHour" text="00"  width="25" bkimage="file='button_normal.png' source='10,3,40,15'" height="18" tooltip="输入0~23" maxchar="2" />
+          <Text text="点" font="3"></Text>
+          <Edit name="endMinute" text="00" width="25" bkimage="file='button_normal.png' source='10,3,40,15'" height="18" tooltip="输入0~59" maxchar="2" />
+          <Text text="分"  font="3"></Text>
+        </HorizontalLayout>
+        <VerticalLayout>
+          <Control height="100" />
+          <Button text="生成试卷" name="generatePaperBtn" width="100" height="30" normalimage="file='button_nor.bmp'" hotimage="file='button_over.bmp'" pushedimage="file='button_down.bmp'"/>
+        </VerticalLayout>
+      </VerticalLayout>
+    </VerticalLayout>
+    <VerticalLayout width="1" inset="0,1,0,1">
+      <Container bkimage="vertical_border.bmp" />
+    </VerticalLayout>
+    <VerticalLayout width="250" inset="8,15,8,15">
+      <VerticalLayout>
+       <HorizontalLayout height="150">
+       <Text text="{p}{c #2F6F95}{b}考试信息{/b}{/c}{/p}" pos="57, 0, 250, 50" float="true" showhtml="true"/>
+       <Text text="" name="showExamMsg" pos="10, 30, 222, 400" float="true" showhtml="true"/>
+       </HorizontalLayout>
+      </VerticalLayout>
+      <HorizontalLayout height="1">
+        <Container bkimage="horizontal_border.bmp" />
+      </HorizontalLayout>
+      <VerticalLayout height="130" >
+        <VerticalLayout>
+          <Control height="10" />
+          <Text text="{p}{c #2F6F95}{b}试卷信息{/b}{/c}{/p}" pos="57, 0, 250, 50" float="true" showhtml="true"/>
+          <Text text="" name="showPaperMsg" pos="10, 30, 222, 400" float="true" showhtml="true"/>
+        </VerticalLayout>
+      </VerticalLayout>
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>

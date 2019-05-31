@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="18" />
+  <Font name="宋体" size="14" bold="true" />
+  <Font name="宋体" size="22" bold="true" italic="false"/>
+  <Font name="宋体" size="12" />
+  <HorizontalLayout>
+    <VerticalLayout>
+      <HorizontalLayout height="50" inset="1,1,0,0">
+        <Container bkimage="examine_background.bmp">
+          <Text text="{f 3}请选择科目、题型从excel中将试题导入题库{/f}{n}" pos="80, 20, 500, 100" float="true" showhtml="true"/>
+        </Container>
+      </HorizontalLayout>
+      <VerticalLayout height="50" />
+      <VerticalLayout height="200">
+        <HorizontalLayout>
+          <Control width="20" />
+          <Text text="科目：" font="3"></Text>
+          <ComboBox name="subject" width="200" height="20" bkimage="file='control.png' source='16,100,169,120'">
+          </ComboBox>
+          <Control width="100" />
+          <Text text="题型：" font="3"></Text>
+          <ComboBox name="questionType" width="200" height="20" bkimage="file='control.png' source='16,100,169,120'" />
+        </HorizontalLayout>
+        <VerticalLayout>
+          <HorizontalLayout inset="20,4,20,0">
+            <Button pos="0, 0, 100, 30" name="importFile" normalimage="file='filebutton.png' source='0,0,140,53'" hotimage="file='filebutton.png' source='140,0,280,53'" pushedimage="file='filebutton.png' source='280,0,420,53'"/>
+            <Control width="20" />
+            <Text name="fileName" font="5" text="" width="400" height="30" />
+          </HorizontalLayout>
+       </VerticalLayout>
+       <VerticalLayout>
+        <HorizontalLayout>
+          <Control width="20" />
+          <Button pos="0,0,100,30" name="imQuesToStore" text="导入题库" normalimage="file='button_nor.bmp'" hotimage="file='button_over.bmp'" pushedimage="file='button_down.bmp'"/>
+        </HorizontalLayout>
+       </VerticalLayout>
+      </VerticalLayout>
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>

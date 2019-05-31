@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,572" sizebox="4,4,6,6" roundcorner="5,5" caption="0,0,0,90" mininfo="800,570">
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Font name="宋体" size="22" bold="true" italic="true"/>
+  <Font name="宋体" size="12" />
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <VerticalLayout bkcolor="#FFD1E8F5" bkcolor2="#FFC6E0F1" bordercolor="#FF768D9B" bordersize="1" borderround="5,5" inset="1,0,1,0">
+    <HorizontalLayout height="24">
+      <HorizontalLayout>
+        <Container width="22" height="22" bkimage="file='store.png'  dest='5,4,21,20' " />
+        <Text text="考试管理系统" pos="22, 5, 200, 24" float="true" textcolor="#FF447AA1" font="0" />
+      </HorizontalLayout>
+      <HorizontalLayout width="188" inset="0,1,0,0">
+        <Container width="100" />
+        <Button name="minbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" hotimage="file='sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+        <Button name="maxbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" hotimage="file='sys_dlg_max.png' source='26,0,52,18'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
+        <Button name="restorebtn" visible="false" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_restore.png' source='52,0,78,17'" hotimage="file='sys_dlg_restore.png' source='26,0,52,17'" pushedimage="file='sys_dlg_restore.png' source='0,0,26,17'" />
+        <Button name="closebtn" maxwidth="45" maxheight="17" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" hotimage="file='sys_dlg_close.png' source='45,0,90,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout height="67">
+      <HorizontalLayout inset="8,5,0,0">
+        <Option pos="10, 0, 75, 62" float="true" align="bottom" name="questionsStore" text="题库管理" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='store.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar" selected="true"/>
+        <Option pos="85, 0, 150, 62" float="true" align="bottom" name="paperManager" text="试卷管理" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='paper.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+        <Option pos="160, 0, 225, 62" float="true" align="bottom" name="gradeManager" text="成绩浏览" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='common.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+        <Option pos="235, 0, 300, 62" float="true" align="bottom" name="messageProtect" text="信息维护" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='msgprotect.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout height="5">
+      <Control width="1"/>
+      <HorizontalLayout bkcolor="#FF97C0DA" bkcolor2="#FFB8DFF2"></HorizontalLayout>
+      <Control width="1"/>
+    </HorizontalLayout>
+	<Control height="25" bkcolor="#FFB8DFF2"/>
+    <HorizontalLayout>
+      <Control width="5"/>
+      <HorizontalLayout bkcolor="#FFFFFFFF" bordercolor="#FF768D9B" bordersize="1">
+        <TabLayout name="switch">
+          <HorizontalLayout>
+            <ImportQuestion />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <VerticalLayout>
+              <VerticalLayout height="50">
+                <HorizontalLayout height="50" inset="1,1,0,0">
+                  <Container bkimage="examine_background.bmp">
+                    <VerticalLayout>
+                      <VerticalLayout height="10" />
+                        <VerticalLayout>
+                          <HorizontalLayout>
+                            <Control width="20" />
+                            <Text text="科目：" font="3"></Text>
+                            <ComboBox name="qsSubject" width="150" height="20" bkimage="file='control.png' source='16,100,169,120'">
+                            </ComboBox>
+                            <Control width="40" />
+                            <Text text="题型：" font="3"></Text>
+                            <ComboBox name="qsQuestionType" width="150" height="20" bkimage="file='control.png' source='16,100,169,120'" />
+                            <Control width="40" />
+                            <Button text="确定" name="scanQuesOK" width="100" height="20" normalimage="file='button_nor.bmp'" hotimage="file='button_over.bmp'" pushedimage="file='button_down.bmp'"/>
+                            <Control width="10" />
+                            <Button text="{u}上一页{/u}" width="100" name="prePage" font="4" showhtml="true" hottextcolor="0xFF0000FF" pushedtextcolor="0x0000FFFF" />
+                            <Button text="{u}下一页{/u}" width="100" name="nextPage" showhtml="true" hottextcolor="0xFF0000FF" pushedtextcolor="0x0000FFFF" />
+                          </HorizontalLayout>
+                      </VerticalLayout>
+                    </VerticalLayout>
+                  </Container>
+                </HorizontalLayout>
+              </VerticalLayout>
+              <VerticalLayout>
+                <Text name="questionScanText" text="{c #999999}选择科目{/c}" pos="10, 10, 400, 400" float="true" font="4" showhtml="true"/>
+              </VerticalLayout>
+            </VerticalLayout>
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <ChildLayout xmlfile="generatePaper.xml" />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <ChildLayout xmlfile="checkExam.xml" />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <ChildLayout xmlfile="gradeScan.xml" />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <ChildLayout xmlfile="updatePasswd.xml" />
+            
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <ChildLayout xmlfile="applyExam.xml" />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <Text text="" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
+          </HorizontalLayout>
+        </TabLayout>
+      </HorizontalLayout>
+      <Control width="5"/>
+    </HorizontalLayout>
+    <HorizontalLayout height="24">
+      <Text text="{c #386382}主程序版本：1.0{/c}" pos="0, 5, 200, 24" float="true" showhtml="true"/>
+      <Control bkimage="cloud.png" pos="550,4,566,20" float="true"/>
+      <Control width="400" />
+      <Text text="{c #386382}已成功连接服务器{/c}" pos="570, 5, 800, 24" float="true" showhtml="true"/>
+    </HorizontalLayout>
+    <HorizontalLayout float="true" pos="1,96,799,122">
+      <Option pos="6, 0, 84, 26" float="true" text="导入试题" name="option0" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true"/>
+      <Option pos="86, 0, 164, 26" float="true" text="试题浏览" name="option1" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="166, 0, 244, 26" float="true" text="" name="option2" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="246, 0, 324, 26" float="true" text="" name="option3" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="326, 0, 404, 26" float="true" text="" name="option4" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="406, 0, 484, 26" float="true" text="" name="option5" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

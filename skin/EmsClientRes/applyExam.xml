@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <Font name="宋体" size="13" bold="false"/>
+  <Font name="宋体" size="12"/>
+  <HorizontalLayout>
+    <VerticalLayout>
+      <HorizontalLayout height="40" inset="1,0,0,0">
+        <Container bkimage="examine_background.bmp" inset="10,10,0,0">
+          <HorizontalLayout>
+            <Text text="科目：" ></Text>
+            <ComboBox name="applyExamSubject" width="200" height="18" bkimage="file='control.png' source='14,60,169,80'">
+            </ComboBox>
+            <Control width="20" />
+            <Text text="学号："></Text>
+            <Edit name="applyUserNumber" width="135" height="18" bkimage="file='control.png' source='16,18,169,41'"></Edit>
+            <Control width="20" />
+            <Button name="applyExamSearch" text="查询" width="90" height="18" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png"></Button>
+            <Control width="20" />
+            <Button name="applyAllPass" text="全部通过" width="90" height="18" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" bkcolor="0xFF00FF00"></Button>
+            <Control width="20" />
+            <Button name="applyAllRefuse" text="全部拒绝" width="90" height="18" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" bkcolor="0xFFFF0000"></Button>
+          </HorizontalLayout>
+        </Container>
+      </HorizontalLayout>
+      <HorizontalLayout inset="1,1,1,1">
+        <List name="applyList" bkcolor="#FFFFFFFF" inset="0,0,0,0" itemshowhtml="true" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="center" itembkcolor="#FFE2DDDF" itemaltbk="true" hscrollbar="false" menu="true">
+        <ListHeader height="24" menu="true">
+          <ListHeaderItem text="考试编号" font="1" width="100" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="学号" font="1" width="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="姓名" font="1" width="110" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="所在班级" font="1" width="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="考试科目" font="1" width="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="开考时间" font="1" width="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="交卷时间" font="1" width="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+        </ListHeader>
+       </List>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>

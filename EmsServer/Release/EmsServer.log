@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/5/19 18:12:03。
+     1>项目“G:\windows程序设计\EmsClient\EmsServer\EmsServer.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\EmsServer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\EmsServer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EmsNet.cpp EmsServer.cpp EmsServerMain.cpp
+         EmsNet.cpp
+         EmsServer.cpp
+         EmsServerMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\windows程序设计\EmsClient\Release\EmsServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\windows程序设计\EmsClient\Release\EmsServer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\windows程序设计\EmsClient\Release\EmsServer.lib" /MACHINE:X86 /SAFESEH Release\EmsNet.obj
+         Release\EmsServer.obj
+         Release\EmsServerMain.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         EmsServer.vcxproj -> G:\windows程序设计\EmsClient\Release\EmsServer.exe
+     1>已完成生成项目“G:\windows程序设计\EmsClient\EmsServer\EmsServer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.55

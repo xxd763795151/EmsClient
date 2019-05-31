@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmsClient", "EmsClient\EmsClient.vcxproj", "{7F4C4B7C-46F9-4872-BF7B-604A89B71D27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmsServer", "EmsServer\EmsServer.vcxproj", "{D0267260-F10B-4B0B-B993-3AAB0A7D8621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F4C4B7C-46F9-4872-BF7B-604A89B71D27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F4C4B7C-46F9-4872-BF7B-604A89B71D27}.Debug|Win32.Build.0 = Debug|Win32
+		{7F4C4B7C-46F9-4872-BF7B-604A89B71D27}.Release|Win32.ActiveCfg = Release|Win32
+		{7F4C4B7C-46F9-4872-BF7B-604A89B71D27}.Release|Win32.Build.0 = Release|Win32
+		{D0267260-F10B-4B0B-B993-3AAB0A7D8621}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0267260-F10B-4B0B-B993-3AAB0A7D8621}.Debug|Win32.Build.0 = Debug|Win32
+		{D0267260-F10B-4B0B-B993-3AAB0A7D8621}.Release|Win32.ActiveCfg = Release|Win32
+		{D0267260-F10B-4B0B-B993-3AAB0A7D8621}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
